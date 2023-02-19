@@ -49,7 +49,7 @@ type StyledProps = {
 };
 const StyledAccordionSummary = styled(AccordionSummary, {
   shouldForwardProp: (prop) => prop !== "isFirstItem"
-})<StyledProps>(({ theme, isFirstItem }) => ({
+})<StyledProps>(({ isFirstItem }) => ({
   backgroundColor: "none",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(0deg)"
@@ -63,7 +63,7 @@ const Faqs = () => {
   const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange = (panel: string) => (
-    event: SyntheticEvent,
+    _: SyntheticEvent,
     isExpanded: boolean
   ) => {
     setExpanded(isExpanded ? panel : false);
