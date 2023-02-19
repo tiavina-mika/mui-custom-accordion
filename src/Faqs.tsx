@@ -3,6 +3,8 @@ import { Box, Button, Stack, Typography, styled } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
+
+// dummy translated file
 import fr from "./faqs.json";
 import parseHtml from "html-react-parser";
 
