@@ -108,7 +108,9 @@ const Faqs = () => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>{subItem.question}</Typography>
+                  <Typography sx={{ fontSize: 18, fontWeight: 600 }}>
+                    {subItem.question}
+                  </Typography>
                 </StyledAccordionSummary>
                 <AccordionDetails>
                   <Typography>{subItem.response}</Typography>
