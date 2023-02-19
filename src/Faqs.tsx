@@ -112,7 +112,9 @@ const Faqs = () => {
                   </Typography>
                 </StyledAccordionSummary>
                 <AccordionDetails>
-                  <Typography>{parseHtml(subItem.response)}</Typography>
+                  <Typography sx={{ fontSize: 22 }}>
+                    {parseHtml(subItem.response)}
+                  </Typography>
                 </AccordionDetails>
               </Accordion>
             ))}
