@@ -50,12 +50,12 @@ const StyledButton = styled(Button)(({ theme }) => ({
 }));
 
 // --------- accordion summary --------- //
-type StyledProps = {
+type StyledAccordionSummaryProps = {
   isFirstItem: boolean;
 };
 const StyledAccordionSummary = styled(AccordionSummary, {
   shouldForwardProp: (prop) => prop !== "isFirstItem"
-})<StyledProps>(({ isFirstItem }) => ({
+})<StyledAccordionSummaryProps>(({ isFirstItem }) => ({
   backgroundColor: "none",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(0deg)"
@@ -90,9 +90,9 @@ const Faqs = () => {
   }, []);
 
   return (
-    <Stack spacing={8}>
+    <Stack spacing={22}>
       {items.map((item, index) => (
-        <Stack key={item.title + index} spacing={8}>
+        <Stack key={item.title + index} spacing={12}>
           <Box>
             <Typography variant="h3" sx={{ textTransform: "capitalize" }}>
               {item.title}
