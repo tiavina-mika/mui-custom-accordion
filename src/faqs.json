@@ -1,0 +1,40 @@
+{
+  "passenger": {
+    "faqs1": {
+      "question": "En Nunc mattis eget sapien et commodo?",
+      "response": "En Lorem ipsum dolor sit amet, <b>consectetur</b> adipiscing elit. Vivamus dictum et tortor et finibus. Nunc mattis eget sapien et commodo. Curabitur rutrum, odio at pellentesque varius"
+    },
+    "faqs2": {
+      "question": "En Mauris cursus feugiat nulla at sodales?",
+      "response": "En In pulvinar augue vitae elit vehicula, non tincidunt justo blandit. Vivamus gravida interdum urna, id tempus augue tempor in. Nullam libero diam, semper vel tellus ac, laoreet dignissim ipsum"
+    },
+
+    "faqs3": {
+      "question": "En Vivamus vel lorem id massa scelerisque cursu?",
+      "response": "En Mauris iaculis aliquam facilisis. Proin in mollis leo. Nam rhoncus aliquet diam et blandit. Suspendisse fringilla odio ut mauris pharetra feugiat. Sed volutpat nec mauris nec blandit. Suspendisse id leo ac lorem luctus posuere. Aliquam id quam dictum, accumsan ligula id, mollis arcu. Sed tempor, nisi ut semper pulvinar"
+    },
+    "faqs4": {
+      "question": "Suspendisse pellentesque nunc iaculis?",
+      "response": "En maximus sem. Cras cursus urna lorem, in pretium nibh condimentum in. Mauris cursus feugiat nulla at sodales. Vivamus vel lorem id massa scelerisque cursus. Donec lectus sem, tempus quis eros quis, eleifend pretium elit. Suspendisse gravida, tortor et imperdiet hendrerit, urna felis tempus ipsum, sit amet rutrum est leo quis ipsum. Aliquam metus nibh, sagittis vel leo sed, commodo iaculis dui. Suspendisse blandit metus ac risus efficitur"
+    }
+  },
+  "driver": {
+    "faqs1": {
+      "question": "En Pellentesque placerat lorem sed porttitor posuere?",
+      "response": "En Pellentesque placerat lorem sed porttitor posuere. Nam aliquet rhoncus nulla, vitae suscipit lorem. Pellentesque euismod dapibus mi, ac ultrices ipsum rutrum nec. Nulla finibus consectetur urna. Vivamus iaculis tortor id ligula mattis gravida. Ut mattis dignissim lectus, ut varius libero iaculis sed. Nunc blandit finibus vestibulum"
+    },
+    "faqs2": {
+      "question": "En nam rhoncus aliquet diam et blandit?",
+      "response": "En Ut in suscipit felis. Nullam malesuada pulvinar metus vitae congue. Donec pellentesque tellus et lacinia malesuada. Suspendisse pellentesque nunc iaculis, ultrices dolor quis, viverra augue. In hac habitasse platea dictumst. Sed nec leo luctus, malesuada nunc id, sodales velit. Etiam ex mi, commodo et risus ornare, semper hendrerit mauris. Donec faucibus, lacus nec pellentesque ultrices, libero enim tincidunt mauris, non mattis erat libero sit amet tellus. Fusce ac viverra ipsum, nec scelerisque metus. Aliquam dapibus cursus nibh, vel fringilla libero aliquam non. Maecenas dapibus tellus at ligula lobortis viverra. Ut id venenatis dui. Suspendisse venenatis, sem sit amet convallis consectetur, nibh ante efficitur ipsum, id dictum sem massa vitae quam. Praesent sit amet porttitor risus, vitae lacinia sapien. Integer ornare rhoncus semper. Cras vitae dolor sed erat vulputate ullamcorper"
+    },
+
+    "faqs3": {
+      "question": "En odio ut mauris pharetra feugiat Sed?",
+      "response": "En Proin in mollis leo. Nam rhoncus aliquet diam et blandit. Suspendisse fringilla odio ut mauris pharetra feugiat. Sed volutpat nec mauris nec blandit"
+    },
+    "faqs4": {
+      "question": "En Iaculis aliquam facilisis. Proin in mollis?",
+      "response": "En Mauris iaculis aliquam facilisis. Proin in mollis leo. diam et blandit. Suspendisse fringilla odio ut mauris pharetra feugiat. Sed volutpat nec mauris nec blandit. Suspendisse id leo ac lorem luctus posuere. Aliquam id quam dictum, accumsan ligula id, mollis arcu. Sed tempor, nisi ut semper pulvinar"
+    }
+  }
+}
