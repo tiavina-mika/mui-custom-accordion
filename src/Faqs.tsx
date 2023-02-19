@@ -92,7 +92,7 @@ const Faqs = () => {
   return (
     <Stack spacing={8}>
       {items.map((item, index) => (
-        <Stack key={item.title + index} spacing={6}>
+        <Stack key={item.title + index} spacing={8}>
           <Box>
             <Typography variant="h3" sx={{ textTransform: "capitalize" }}>
               {item.title}
@@ -113,7 +113,7 @@ const Faqs = () => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography sx={{ fontSize: 18, fontWeight: 600 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 600 }}>
                     {subItem.question}
                   </Typography>
                 </StyledAccordionSummary>
