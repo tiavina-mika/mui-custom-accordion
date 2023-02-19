@@ -35,6 +35,7 @@ const StyledButton = styled(Button)(({ theme }) => ({
   borderRadius: 8,
   paddingLeft: 16,
   paddingRight: 16,
+  fontWeight: 600,
   textTransform: "inherit",
   background: "transparent",
   border: "1px solid" + theme.palette.secondary.main,
@@ -42,6 +43,9 @@ const StyledButton = styled(Button)(({ theme }) => ({
   "&:hover": {
     background: theme.palette.secondary.main,
     color: "#fff"
+  },
+  [theme.breakpoints.down("sm")]: {
+    display: "none"
   }
 }));
 
