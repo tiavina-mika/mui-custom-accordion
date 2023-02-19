@@ -1,6 +1,6 @@
 ## Projet
 
-Select multiple choices with material ui checkbox, react hook form, TypeScript and zod.
+Material UI custom accordion by Tiavina Michael Ralainirina.
 [Lien codesandbox](https://codesandbox.io/s/github/tiavina-mika/mui-checkbox-react-hook-form)
 
 ## A propos de moi
@@ -18,6 +18,5 @@ Mon nom est Tiavina Michael Ralainirina, je suis un développeur full stack avec
 ## Technos
 
 - [Material UI 5](https://mui.com/)
-- [React Hook Form](https://react-hook-form.com/get-started)
+- [React Html Parser](https://www.npmjs.com/package/html-react-parser)
 - TypeScript
-- [Zod](https://github.com/colinhacks/zod)
