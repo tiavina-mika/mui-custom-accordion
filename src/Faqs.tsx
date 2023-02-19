@@ -58,6 +58,7 @@ const StyledAccordionSummary = styled(AccordionSummary, {
 })<StyledAccordionSummaryProps>(({ isFirstItem }) => ({
   backgroundColor: "none",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
+    // not rotate the button when the summary is open
     transform: "rotate(0deg)"
   },
   padding: "clamp(20px,3vw,30px) 0",
