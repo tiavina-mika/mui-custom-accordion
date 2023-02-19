@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -40,21 +40,33 @@ const App = () => {
         justifyContent: "space-between"
       }}
     >
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<button>Cool</button>}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Accordion 1</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
+      <Stack spacing={4}>
+        {items.map((item, index) => (
+          <Stack key={item.title + index} spacing={2}>
+            <Box>
+              <Typography sx={{ textTransform: "capitalize" }}>
+                {item.title}
+              </Typography>
+            </Box>
+            <Box>
+              {item.content.map((subItem, subIndex) => (
+                <Accordion key={subItem.question + subIndex}>
+                  <AccordionSummary
+                    expandIcon={<button>Cool</button>}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                  >
+                    <Typography>{subItem.question}</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>{subItem.response}</Typography>
+                  </AccordionDetails>
+                </Accordion>
+              ))}
+            </Box>
+          </Stack>
+        ))}
+      </Stack>
     </Box>
   );
 };
