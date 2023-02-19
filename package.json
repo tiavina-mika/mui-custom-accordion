@@ -5,6 +5,7 @@
     "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "html-react-parser": "3.0.9",
     "react": "latest",
     "react-dom": "latest",
     "typescript": "latest"

@@ -1,11 +1,10 @@
+import { SyntheticEvent, useMemo, useState } from "react";
 import { Box, Button, Stack, Typography, styled } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
-import AccordionSummary, {
-  AccordionSummaryProps
-} from "@mui/material/AccordionSummary";
+import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import fr from "./faqs.json";
-import { SyntheticEvent, useMemo, useState } from "react";
+import parseHtml from "html-react-parser";
 
 interface IContent {
   question: string;
@@ -113,7 +112,7 @@ const Faqs = () => {
                   </Typography>
                 </StyledAccordionSummary>
                 <AccordionDetails>
-                  <Typography>{subItem.response}</Typography>
+                  <Typography>{parseHtml(subItem.response)}</Typography>
                 </AccordionDetails>
               </Accordion>
             ))}
